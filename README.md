@@ -1,10 +1,60 @@
-# Computing Player Similarity Using Cluster Analysis
+# Player Roles/Types & Similarities
 
-Using FB Ref player data to measure player similarity within positions, using clustering methods.
+Using FB Ref player data to measure player roles/types and identify similar players within positions, using clustering and nearest neighbors algorithms.
+
+## Contents
+
+- [Requirements](#requirements)
+- [Project Plans](#project-plans)
+  - [TODOs](#todos)
+    - [Feature Selection](#feature-selection)
+    - [Clustering](#clustering)
+    - [Similarities](#similarities)
+- [License](#license)
+- [Contact](#contact)
+
+## Requirements
+
+This project is managed in a virtual environment, using pipenv. All packages and their dependencies can be found in Pipfile and Pipfile.lock. To create a pipenv environment and install all the packages needed to run the code in this repository, run the following in a terminal:
+
+````bash
+# install pipenv
+pip install pipenv
+
+# navigate to the repository directory
+cd ~/path/to/player-similarity-clusters
+
+# install virtual environment and dependencies
+pipenv install
+````
+
+The packages required are:
+
+- pandas
+- ipykernel
+- matplotlib
+- yellowbrick
+- scikit-learn
+
+## Project Plans
+
+This project is still in development.
+
+### TODOs
+
+#### Clustering
+
+- [ ] Consider lasso & weighted k-means feature selection
+- [ ] Look at clustering for defenders & goalkeepers
+- [ ] Think about features needed for goalkeepers
+
+#### Nearest Neighbors
+
+- [ ] Stop the output pulling the target player when identifying similar players
 
 ## License
 
-The data for this project is provided by FB Ref and the code used to train the clustering algorithm is licensed under the [MIT license](LICENSE.md).
+The data for this project is provided by FB Ref and the code used to train the clustering and the nearest neighbors algorithms is licensed under the [MIT license](LICENSE.md).
 
 ## Contact
 
