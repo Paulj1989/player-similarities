@@ -5,12 +5,13 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-sklearn = "*"
 ipykernel = "*"
 matplotlib = "*"
 yellowbrick = "*"
+scikit-learn = "==0.22.0"
 
 [dev-packages]
+rope = "*"
 
 [requires]
 python_version = "3.8"
