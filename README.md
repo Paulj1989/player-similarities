@@ -36,6 +36,8 @@ The packages required are:
 - yellowbrick
 - scikit-learn
 
+There are two notebooks containing the code for the project. They have to be run sequentially for both to work, so the clustering models (contained in the aptly named clustering notebook) have to be computed first, before running the nearest neighbors algorithm (in the similarities notebook) to compute player similarities.
+
 ## Project Plans
 
 This project is still in development.
