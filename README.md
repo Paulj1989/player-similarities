@@ -1,6 +1,6 @@
 # Player Roles/Types & Similarities
 
-Using FB Ref player data to measure player roles/types and identify similar players within positions, using clustering and nearest neighbors algorithms.
+Using [FB Ref](https://fbref.com/) player data to measure player roles/types and identify similar players within positions, using clustering and nearest neighbors algorithms.
 
 ## Contents
 
@@ -56,7 +56,7 @@ This project is still in development.
 
 ## License
 
-The data for this project is provided by FB Ref and the code used to train the clustering and the nearest neighbors algorithms is licensed under the [MIT license](LICENSE.md).
+The data for this project is provided by [FB Ref](https://fbref.com/) and the code used to train the clustering and the nearest neighbors algorithms is licensed under the [MIT license](LICENSE.md).
 
 ## Contact
 
